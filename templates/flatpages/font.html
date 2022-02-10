@@ -1,0 +1,12 @@
+{% extends 'flatpages/carcass.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+<div style="font-family: 'Times New Roman', Times, serif;">
+    <h2 style="font-size: 4em;">{{ flatpage.title }}</h2>
+    <div style="font-size: 1.5em;">{{ flatpage.content }}</div>
+</div>
+{% endblock content %}
